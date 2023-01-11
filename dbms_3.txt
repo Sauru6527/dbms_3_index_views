@@ -1,0 +1,7 @@
+mysql> create index fast
+    -> ON
+    -> city (ID);
+
+mysql> create view FAST
+    -> AS
+    -> select id from city;
